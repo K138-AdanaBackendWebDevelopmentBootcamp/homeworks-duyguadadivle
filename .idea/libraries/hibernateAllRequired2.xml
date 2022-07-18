@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="hibernateAllRequired2">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../JavaJARS/hibernateAllRequired" />
+      <root url="file://$PROJECT_DIR$/../../../../JavaJARS/mysqlConnector" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../JavaJARS/hibernateAllRequired" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../JavaJARS/mysqlConnector" recursive="false" />
+  </library>
+</component>
