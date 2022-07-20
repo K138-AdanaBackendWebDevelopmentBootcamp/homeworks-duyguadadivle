@@ -1,5 +1,7 @@
 package com.patika.dev.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -15,9 +17,11 @@ public class Course {
     private String courseCode;
     private Integer creditScore;
 
+    @JsonIgnore //
     @ManyToMany
     private List<Student> studentList = new ArrayList<>();
 
+    @JsonIgnore //
     @ManyToOne
     private Instructor instructor;
 

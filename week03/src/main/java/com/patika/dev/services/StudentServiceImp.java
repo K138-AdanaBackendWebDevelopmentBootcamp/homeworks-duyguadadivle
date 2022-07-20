@@ -26,21 +26,22 @@ public class StudentServiceImp implements StudentService<Student> {
 
     @Override
     public Student findById(int id) {
-        return null;
+        return (Student) studentDAO.findById(id);
     }
 
     @Override
     public Student save(Student student) {
-        return null;
+        return (Student) studentDAO.save(student);
     }
+
 
     @Override
     public void deleteById(int id) {
-
+        studentDAO.deleteById(id);
     }
 
     @Override
     public Student update(Student student) {
-        return null;
+        return (Student) studentDAO.save(student);
     }
 }
