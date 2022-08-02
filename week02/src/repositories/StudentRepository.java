@@ -11,4 +11,5 @@ public interface StudentRepository {
 
     List<Course> getStudentCourseList(Student student);
 
+
 }

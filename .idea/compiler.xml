@@ -8,14 +8,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="week03" />
+        <module name="project2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="project2" target="17" />
+      <module name="projects2" target="17" />
       <module name="week03" target="18" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="project2" options="-parameters" />
+      <module name="projects2" options="-parameters" />
       <module name="week03" options="-parameters" />
     </option>
   </component>
